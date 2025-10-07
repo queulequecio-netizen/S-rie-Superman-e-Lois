@@ -5,7 +5,7 @@ body{
 .secao-topo{
     background-color:#000;
     border: 1px solid #000;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     text-align: center;
     height:80%;
 }
@@ -127,7 +127,7 @@ body{
     border: 1px solid #fff;
     margin: 15px;
     height: 260px;
-    width:280px;
+    width:300px;
 }
 
 .secao-imagens h2{
@@ -192,4 +192,5 @@ h4{
 *::-webkit-scrollbar-thumb:active {
   background-color: #fff;
 }
+
 
