@@ -1,0 +1,195 @@
+body{
+    font-family: monospace;
+}
+
+.secao-topo{
+    background-color:#000;
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    height:80%;
+}
+
+.secao-topo a{
+    font-size: 28px;
+    text-decoration: none;
+    margin: 0px 25px;
+    color:white;
+}
+
+
+.secao-banner .imagem-fundo{
+    background-image: url('imagens/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width:100%;
+}
+
+.secao-sinopse{
+    height: 45vh;
+    max-width: 1526px;
+}
+
+.secao-sinopse h1{
+    font-size: 32px;
+    margin-top: 40px;
+    text-align:center;
+}
+
+.secao-sinopse h2{
+    font-size: 24px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.secao-sinopse p{
+    font-size: 18px;
+    text-align: justify;
+    border: 1px solid #fff;
+    margin: auto 180px;
+    padding-top: 8px;
+    line-height:30px;
+}
+
+.secao-canais{
+    background-color: rgb(39, 14, 63);
+    height: 100vh;
+    text-align: center;
+}
+
+.secao-canais h1{
+    font-size: 30px;
+    color:#fff;
+    padding-top: 30px;
+}
+
+.secao-canais img{
+    margin: 45px auto 0px auto;
+    box-shadow: -1px -1px 8px 6px #e7e3e3ed;
+}
+
+.secao-canais p{
+    font-size:18px;
+    text-align: center;
+    color: #fff;
+    margin: 60px 200px 0px 200px;
+}
+
+.secao-temporadas{
+    width: 100%;
+    height: 130vh;
+    margin: auto;
+}
+
+.subcontainer{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    height: 14%;
+    margin: 70px 250px 0px 250px;
+    padding: 8px;
+    background-color: #eeeef6f9;
+    box-shadow: 2px 2px 12px 8px #cac4c4;
+    box-sizing: border-box;
+}
+
+.secao-temporadas h1{
+   font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.secao-imagens{
+    width: 100%;
+    height: 70vh;;
+    min-height:350px;
+    max-height: 750px;
+    background-color: rgb(39, 14, 63);
+}
+
+.subcontainer-imagens{
+    max-width: 1024px;
+    width: 65%;
+    height: 310px;
+    overflow-x: auto;
+    margin: 50px auto 0px auto;
+    display: flex;
+    border: 1px solid rgb(39, 14, 63);
+    text-align: center;
+}
+
+.imagem-destaque{
+    box-shadow: 0 0 20px 8px #cac4c4;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    margin: 15px;
+    height: 260px;
+    width:280px;
+}
+
+.secao-imagens h2{
+    font-size: 25px;
+    color:#fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+span{
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+}
+
+.secao-imagens p{
+    font-size: 18px;
+    color:#fff;
+    margin: 30px auto 0px 280px;
+}
+
+.secao-rodapé{
+    background-color: rgb(39, 14, 63);
+    height: 12vh;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 8px 4px #cac4c4;
+} 
+
+h4{
+    font-size: 18px;
+    color:#fff;
+}
+
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DA9BEB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B4BDC2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #C36CC4;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #fff;
+}
+
